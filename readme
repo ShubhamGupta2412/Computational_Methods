@@ -1,0 +1,60 @@
+Implementation to be done on C/C++
+1.
+a) Write a program to print all odd positive integers less than 100, 
+omitting those divisible by 7.
+b) Write a program to determine the number of integers between 1 and 
+2000 that are not divisible by 2, 3 or 5 but are divisible by 7.
+3 | Page
+c) Write a program to add and multiply any two matrices.
+2. Write a program to find a root of the equation 𝒙
+𝟑 − 𝟐𝒙 − 𝟏 = 𝟎 using 
+Bisection method. Run the program for the initial interval provided by the 
+user.
+3. Write a program to solve for a root of the equation 𝒆
+−𝒙
+𝟐
+= 𝒄𝒐𝒔 𝒙 + 𝟏 using 
+Newton-Raphson method in the interval [0 4]. Run the program for the 
+initial approximations 0 and 1.
+4. Write a program to solve for a root of the equation 𝒙
+𝟓 + 𝒙
+𝟑 + 𝟑 = 𝟎 using 
+Secant method. Run the program for the initial approximations -1 and 1.
+5. Write a program to predict this year's rainfall using the Lagrange 
+Interpolation method. Use the annual rainfall data for the last 10 years in 
+your city. Is the answer obtained reasonable?
+6. Using 21 equally spaced nodes on the interval [-5 5], find the interpolating 
+polynomial 𝒑(𝒙) of degree 20 for the function 𝒇(𝒙) =
+𝟏
+𝟏+𝒙
+𝟐
+. Print the values 
+of 𝒑(𝒙) and 𝒇(𝒙) at 41 equally spaced points, including the nodes. What do 
+you observe?
+7. Write a program to verify that 59 subintervals are required to evaluate 
+∫ 𝒆
+−𝒙
+𝟐
+𝒅𝒙 𝟏
+𝟎
+with atmost error of 𝟏
+𝟐
+∗ 𝟏𝟎−𝟒
+for the composite Trapezoidal Rule.
+8. Write a program to calculate a point of minima for a given function and an 
+interval. The search should continue until a pre-assigned error bound is 
+reached but not beyond 100 in each case. Run the program for f(x) =|ln x| 
+on [0.5, 4].
+9. Write a program to solve 𝒙
+′ = 𝟏𝟎𝟎(𝒔𝒊𝒏 𝒕 − 𝒙) with initial value x(0)=0 
+using fourth order Runge-Kutta method on the interval [0 3] with step sizes 
+0.015, 0.020, 0.025, 0.030. Observe the numerical instability.
+10. Write a program to find the largest and smallest eigen value of the matrix 
+[
+−𝟓𝟕 𝟏𝟗𝟐 𝟏𝟒𝟖
+𝟐𝟎 −𝟓𝟑 −𝟒𝟒
+−𝟒𝟖 𝟏𝟒𝟒 𝟏𝟏𝟓
+]using Power method.
+11. Write a program for Fibonacci Search Algorithm. Run the code for 𝒇(𝒙) =
+𝒙
+𝟐 + 𝒔𝒊𝒏 (𝟓𝟑 𝒙) to find the minima of the function near origin.
